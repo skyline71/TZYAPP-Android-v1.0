@@ -1,0 +1,13 @@
+<resources>
+    <style parent="AppBaseTheme" name="AppTheme"> </style>
+    <style parent="Theme.AppCompat.Light.NoActionBar" name="AppBaseTheme">
+        <item name="colorPrimary">@color/material_blue_500</item>
+        <item name="colorPrimaryDark">@color/material_blue_700</item>
+        <item name="colorAccent">@color/material_green_A200</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="searchViewStyle">@style/MySearchViewStyle</item>
+    </style>
+
+    <style name="MySearchViewStyle" parent="Widget.AppCompat.SearchView">
+    </style>
+</resources>

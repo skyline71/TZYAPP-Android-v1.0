@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/img_3"
+    android:orientation="vertical">
+
+  <!--  <ImageView
+        android:layout_marginTop="80dp"
+        android:layout_width="82.0dip"
+        android:layout_height="82.0dip"
+        android:contentDescription="@null"
+        android:src="@drawable/me_head_bg" />  !-->
+
+    <com.example.floatingbuttontest.view.widget.CircularImage
+        android:id="@+id/cover_user_photo"
+        android:layout_height="80dp"
+        android:layout_width="80dp"
+        android:src="@drawable/img_2"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="20dp"/>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1">
+    <TableRow>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="Account:" />
+        <com.example.floatingbuttontest.view.widget.EditTextWithDel
+            android:id="@+id/account"
+            android:layout_height="wrap_content"
+            android:hint="Input your account"
+            />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="Password:"/>
+        <com.example.floatingbuttontest.view.widget.EditTextWithDel
+            android:id="@+id/password"
+            android:layout_height="wrap_content"
+            android:hint="textPassword"
+            android:password="true"
+            android:layout_span="2"/>
+    </TableRow>
+    <TableRow>
+    <CheckBox
+        android:id="@+id/remember_pass"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="记住密码"
+        android:paddingRight="50dp"/>
+    <CheckBox
+        android:id="@+id/auto_login"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="自动登录"
+        android:layout_gravity="right"
+        android:paddingRight="80dp"/>
+
+    </TableRow>
+    <TableRow>
+    <Button
+        android:id="@+id/login"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_span="4"
+        android:text="登录"
+        android:background="#00796B"
+        android:layout_margin="20dp"/>
+    </TableRow>
+
+
+</TableLayout>
+
+
+
+</LinearLayout>

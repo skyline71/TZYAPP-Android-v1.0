@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">FloatingButtonTest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_refreash">刷新</string>
+    <string name="action_delete">删除</string>
+    <string name="action_favorite">收藏</string>
+    <string name="open">打开</string>
+    <string name="close">关闭</string>
+    <string name="title_activity_first">FirstActivity</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="soft_update_no">没有可供更新的版本</string>
+    <string name="soft_update_title">软件更新</string>
+    <string name="soft_update_info">有新的安装包，是否需要更新</string>
+    <string name="soft_update_updatebtn">更新</string>
+    <string name="soft_update_later">以后再说</string>
+    <string name="soft_updating">更新</string>
+    <string name="soft_update_cancel">取消</string>
+    <array name="items">
+        <item>保存</item>
+        <item>分享</item>
+    </array>
+
+</resources>
